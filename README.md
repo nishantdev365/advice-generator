@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-J_ynFvMccs)
-- Live Site URL: [Add live site URL here](https://nishantdev365.github.io/advice-generator/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/advice-generator-app-J_ynFvMccs)
+- Live Site URL: [Click Here](https://nishantdev365.github.io/advice-generator/)
 
 ## My process
 
