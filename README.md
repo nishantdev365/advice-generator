@@ -32,7 +32,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt how to create a glowing button hover effect using box shadow
+I learnt how to use asyn await function effectively
 
 ```API
 async function advice() {
