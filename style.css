@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap");
+
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+  --Font-size: 28px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Dark-Blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  height: 100vh;
+  font-family: Manrope;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+main {
+  background-color: var(--Dark-Grayish-Blue);
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.advice__heading {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--Neon-Green);
+}
+.advice__text,
+.loading__text {
+  font-size: 21px;
+  color: var(--Light-Cyan);
+  line-height: 1.7rem;
+  margin: 1rem 0;
+}
+
+.divider {
+  margin: 1rem 0;
+}
+
+.pattern_desktop {
+  display: none;
+}
+
+.pattern_mobile {
+  display: block;
+}
+
+.advice__btn {
+  background-color: var(--Neon-Green);
+  position: absolute;
+  bottom: -1.2rem;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-40%);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.advice__btn:hover {
+  box-shadow: 0 0 10px var(--Neon-Green), 0 0 40px var(--Neon-Green),
+    0 0 80px var(--Neon-Green);
+}
+.advice__btn img {
+  position: absolute;
+  bottom: 2.7px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.3rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer{
+    font-size: 10px;
+    margin-top: 20px;
+    color: var(--Light-Cyan);
+}
+
+footer a {
+    color: var(--Neon-Green);
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 500px;
+  }
+
+  .advice__heading {
+    font-size: 1rem;
+  }
+  .advice__text,
+  .loading__text {
+    font-size: 28px;
+    color: var(--Light-Cyan);
+    line-height: 2rem;
+    margin: 1rem 0;
+  }
+
+  .pattern_mobile {
+    display: none;
+  }
+
+  .pattern_desktop {
+    display: block;
+  }
+
+  .advice__btn {
+    background-color: var(--Neon-Green);
+    position: absolute;
+    bottom: -1.5rem;
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 50%;
+  }
+  .advice__btn img {
+    bottom: 2px;
+    width: initial;
+  }
+
+  footer{
+    font-size: 15px;
+}
+}
